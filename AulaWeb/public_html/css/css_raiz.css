@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/11/2016, 13:39:03
+    Author     : Euripedes
+*/
+
+*{
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    font-family: arial;
+}
+
+body{
+    height: 100%;
+    background: black;
+}
+
+div#pai{
+    max-width: 90%;
+    max-height: 90%;
+    margin: 1% auto;
+    padding: 1%;
+    background: gray;
+}
+div#cabecalho{
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+    color: grey;
+    background: #303030;
+}
+
+div#container{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: green;
+}
+
+#menuAulas{
+    width: 40%;
+    background: #303030;
+    padding: 1%;
+    /*margin-right: 1%;*/
+    margin-bottom: 5px;
+    float: left;
+}
+#submenu{
+    /*width: 55%;*/
+    height: 100%;
+    margin-bottom: 1%;
+    margin-left: 43%;
+    background: #303030;
+    padding: 1%;
+}
+
