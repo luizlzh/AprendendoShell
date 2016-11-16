@@ -37,6 +37,7 @@ div#cabecalho{
 
 div#container{
     margin: 0;
+    min-height: 245pt;
     box-sizing: border-box;
     overflow: hidden;
     background: green;
@@ -44,15 +45,14 @@ div#container{
 
 #menuAulas{
     width: 40%;
+    min-height: 350px;
     background: #303030;
     padding: 1%;
-    /*margin-right: 1%;*/
     margin-bottom: 5px;
     float: left;
 }
 #submenu{
-    /*width: 55%;*/
-    height: 100%;
+    min-height: 350px;
     margin-bottom: 1%;
     margin-left: 43%;
     background: #303030;
